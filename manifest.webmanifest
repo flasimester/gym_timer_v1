@@ -1,0 +1,21 @@
+{
+  "name": "Timer",
+  "short_name": "Timer",
+  "description": "Countdown timer, interval trainer and stopwatch",
+  "start_url": "./timer.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0d0e12",
+  "theme_color": "#0d0e12",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Stopwatch", "url": "./timer.html#sw" },
+    { "name": "Tabata", "url": "./timer.html#20s-r10s-x8" },
+    { "name": "5 minutes", "url": "./timer.html#5m" }
+  ]
+}
